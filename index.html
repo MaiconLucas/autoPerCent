@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+    <title>Porcentagem</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <h1 id="titulo">Calculo de porcentagem</h1>
+        <p id="subtitulo">Complete os dados requeridos</p>
+        <br>
+    </div>
+
+    <form id="subscribe">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Valor Total da Nota</strong></label>
+                <input value="" type="text" name="fullValue" id="fullValue" required >
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Valor Pago pelo cliente</strong></label>
+                <input type="text" name="valuePaid" id="valuePaid" required>
+            </div>
+        </fieldset>
+
+      
+
+        <div class="campo">
+            <label for="ClientName"><strong>Porcentagem para o cliente</strong></label>
+            <div class="result" id="clientResult"></div>
+            <label for="ClientName"><strong>Porcentagem para a 1° empresa</strong></label>
+            <div class="result" id="companyResult1"></div>
+            <label for="ClientName"><strong>Porcentagem para a 2° empresa</strong></label>
+            <div class="result" id="companyResult2"></div>
+        </div>
+
+        <button class="botao" type="submit">Calcular</button>
+
+        
+
+    </form>
+
+    
+</body>
+</html>
